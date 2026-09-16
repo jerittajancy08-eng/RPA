@@ -1,0 +1,15 @@
+﻿{
+  "Version": "1.0",
+  "Metadata": [
+    {
+      "ApplicationType": "Chrome",
+      "ExecutablePath": {
+        "Value": "chrome.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": null,
+      "Version": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6TKZqWqgck2vzBLrAINU-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="43c9dd44-7fa6-46ab-a4a6-d4628c983019" CvType="AnyWordGroup" DesignTimeRectangle="357, 392, 66, 51" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6d21fbf6-0c2d-4d40-8f77-2d203f977277" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='chennai temperature - Google Search - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="43c9dd44-7fa6-46ab-a4a6-d4628c983019" CvTextArea="429, 392, 151, 20" CvTextArgument="°C °F Precipitation:" CvType="Text" DesignTimeRectangle="429, 392, 178, 20" ElementType="Text" Guid="7a9a179c-48ff-4613-9322-1112929139f3" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26bde2268bea7c26f46209fbe81fb893.jpg" xmlns="">0p9He5zfU_0GWCTJdH_SXyA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

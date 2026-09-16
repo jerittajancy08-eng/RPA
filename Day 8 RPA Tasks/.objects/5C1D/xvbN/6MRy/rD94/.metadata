@@ -1,0 +1,14 @@
+﻿{
+  "Name": "°C °F Precipitation",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rD94qG--6kCofHpjcMt_xw",
+  "Reference": "ysQtN95ji0eXiMTZdHqsEw/rD94qG--6kCofHpjcMt_xw",
+  "ParentRef": "ysQtN95ji0eXiMTZdHqsEw/6MRy8Uqte0e_NowjnDvOLA",
+  "Created": "2026-09-16T04:58:28.523024Z",
+  "Updated": "2026-09-16T04:58:28.523024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
