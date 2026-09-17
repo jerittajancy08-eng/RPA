@@ -93,11 +93,16 @@
       <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="LinkedIn_Daily_Post_Automation" sap:VirtualizedContainerService.HintSize="897.2,953.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="[&quot;🚀 Day 8 of my RPA learning journey!&quot; + Environment.NewLine + Environment.NewLine +&#xA;&quot;Today I learned LinkedIn automation using UiPath.&quot; + Environment.NewLine +&#xA;&quot;I explored browser automation and interacting with web elements.&quot; + Environment.NewLine + Environment.NewLine +&#xA;&quot;#RPA #UiPath #Automation #Learning&quot;]" Name="postText" />
+      <Variable x:TypeArguments="x:String" Name="postText">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;🚀 Day 8 of my RPA learning journey!&quot; + Environment.NewLine + Environment.NewLine +&#xD;&#xA;&quot;Today I learned LinkedIn automation using UiPath.&quot; + Environment.NewLine +&#xD;&#xA;&quot;I explored browser automation and interacting with web elements.&quot; + Environment.NewLine + Environment.NewLine +&#xD;&#xA;&quot;#RPA #UiPath #Automation #Learning&quot;" />
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -136,7 +141,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="b7a90a8d-340e-40f3-a4cb-a6a27911fb60" ContentHash="DWyUflxoCkiZq2C4bnlfeA" CvElementArea="1337, 712, 106, 55" CvType="Button" DesignTimeRectangle="1337, 712, 106, 55" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="747348ac-828f-4b73-aa2a-7e68b2d0b2c7" InformativeScreenshot="ea7e66cc84e2b215f1cb5202af99b7b6.jpg" Reference="ysQtN95ji0eXiMTZdHqsEw/rWJCpw_zTUC0WbyQLT1S4A" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Feed | LinkedIn - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="1374, 719, 30, 20" Guid="6d3c9905-f853-4683-b476-1e2f73195ad6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAYAAACaq43EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACaSURBVEhLY+BKO/R/IDADugC98KjFdMOjFtMNj1pMNzxqMd3wwFn8Hxn8/fv/w7vP/zdsufFfC4tiamJUi5HAi2v3aGj5rf8MN44iBLRmP/5/4CPM6u//V/aja6AWfo5qMRivev//A9RqDDmqYWwWpz3/fwPD4lP/E3a//X/j819YcMDTw8rl59D041D76Pn/hLRD/xc8hwgBAPD5ZKMeUltrAAAAAElFTkSuQmCC" SearchSteps="Image" TargetType="ImageBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
